@@ -21,7 +21,7 @@
 #### Step1 Clone this project
 
 ```bash
-git clone https://github.com/WaiWaiLinOo/job-project-with-nuxt.js2-and-laravel9.git
+git clone https://github.com/WaiWaiLinOo/project-with-nuxt.js-and-laravel9.git
 ```
 #### Step2 Start Development Environment
 

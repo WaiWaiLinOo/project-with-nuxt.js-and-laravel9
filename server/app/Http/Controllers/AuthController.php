@@ -28,7 +28,8 @@ class AuthController extends Controller
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
-        $user->notify(new WelcomeEmailNotification($user));
+        //if you want to sent welcome email, uncomment line 32
+        // $user->notify(new WelcomeEmailNotification($user));
         return response()->noContent();
     }
 
